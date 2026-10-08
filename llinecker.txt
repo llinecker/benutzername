@@ -1,0 +1,2 @@
+Mein Name ist Lars Linecker.
+Ich lerne Git.
