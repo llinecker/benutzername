@@ -1,0 +1,38 @@
+1.
+git remote add origin https://github.com/llinecker/benutzername.git
+git branch -M main
+git push -u origin main
+
+2. und 3. und 4.
+git add llinecker.txt
+git commit -m "llinecker.txt to staging"
+git push
+
+5.
+git checkout -b feature/llinecker
+
+6.
+git add llinecker.txt
+git commit -m "Task 6"
+git push
+git push --set-upstream origin feature/llinecker
+
+7.
+git checkout main
+
+8.
+git merge feature/llinecker
+
+9.
+git status
+git push
+
+10.
+git log
+
+Fragen:
+Was ist ein Merge Konflikt?
+A: Ein Merge Konflikt ist ein Konflikt wenn zwei Dateien zusammengefügt werden die gleichzeitig bearbeitet wurden.
+
+Wie entsteht ein Merge-Konflikt?
+A:Entsteht in dem z.B. zwei Mitarbeiter am selben projekt in der selben Datei zur selben zeit arbeiten und dann versuchen diese Dateien zusammenzuführen.
